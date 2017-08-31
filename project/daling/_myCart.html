@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车</title>
+		<!--外部样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/daling-common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/_myCart1.0.0.css"/>
+		<!--js-->
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/_myCart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body> 
+		<div id="header-wraper">  
+			<div class="header-inner">
+				<div class="left">
+					<a href="#">消费者告知书</a>  
+				</div>
+				<div class="right">
+					<ul>
+						<li><a href="#">登录</a></li>
+						<li>|</li>
+						<li><a href="#">注册</a></li>
+						<li>|</li>
+						<li>
+							<b>400-080-1888</b>
+						</li>
+						<li>|</li>
+						<li><a href="#">下载达令app</a></li>
+					</ul>
+				</div>
+			</div>  
+		</div>
+		<div id="top-wraper">
+			<div class="top-inner">
+				<div class="logo">
+					<h1>
+						<a href="#" title="一手全球好货">达令网</a>
+					</h1>
+				</div>
+				<!--<div class="promo">
+					<a href="#"><img src="images/15026953283528.gif"/></a>
+				</div>-->
+				<!--<div class="search">
+					<form action="" method="" action="">
+						<input type="text" id="txt" placeholder="搜索" />
+						<input type="button" id="btn" value="搜索"/>
+					</form>
+					<a href="#">口红</a>
+					<a href="#">面膜</a>
+					<a href="#">耳饰</a>
+					<a href="#">日系美妆</a>
+					<a href="#">化妆水</a>
+					<a href="#">底妆</a>
+					<a href="#">乳霜</a>
+					<a href="#">洁面</a>
+					<a href="#">防晒</a>
+				</div>
+				<div class="cart">
+					<a href="">
+						<i></i>
+						我的购物车
+						<b></b>
+					</a>
+					<span class="myCart-sum">0</span>
+				</div>-->
+			</div>
+		</div>
+		<div id="main-wraper">
+			<div class="main clear">  
+				<div class="cart">
+					<div class="cart-thead">
+						<ul>
+							<li>
+								<input type="checkbox" class="checkAll" />全选
+							</li>
+							<li class="th-thName">商品名称</li>
+							<li class="th-thPrice">单价（元）</li>
+							<li class="th-thCount">数量</li>
+							<li class="th-thTotal">小计（元）</li>
+							<li class="th-thHandle">操作</li>
+						</ul>
+					</div>
+					<!--<div class="cart-list clear">
+						<ul>
+							<li class="td-tdCheck">
+								<input type="checkbox" class="checkGoods"/>
+							</li>
+							<li class="td-tdGoods">
+								<a href="javascript:;" class="goods-img">
+									<img src="images/todayNew_05.jpg"/>
+								</a>
+								<a href="javascript" class="goods-name">
+									[日诗甜美] 日诗甜美 旅行必备洗护套装(乳木果洗发乳80ml+太阳花保湿沐浴露80ml)
+								</a>
+							</li>
+							<li class="td-tdPrice">￥88</li>
+							<li class="td-tdCount">
+								<input type="button" class="sub" value="-"/>
+								<input type="text" class="txt" value="1"/>
+								<input type="button" class="add" value="+"/>
+							</li>
+							<li class="td-tdTotal">￥88</li>
+							<li class="td-tdHandle"><a href="javascript">删除</a></li>	
+						</ul>
+					</div>-->
+				</div>
+				<div class="total-box">
+					<ul>
+						<li>
+							<input type="checkbox" class="checkAll" />全选
+						</li>
+						<li>
+							<a href="javascript:;" class="deleteSelect">删除选中的商品</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="toCollect">移到我的收藏</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="gotoBuy">去结算</a>
+						</li>
+						<li class="total">
+							<p>
+								总金额:
+								<i  class="total-count">￥100</i>
+							</p>
+							<p>
+								已节省：
+								<i class="total-save">￥20</i>
+							</p>
+						</li>
+						<li class="choosen">
+							已选中<span>1</span>件商品
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="sure">
+				<ul>
+					<li>
+						为什么选择达令
+						<span class="arrow"></span>
+					</li>
+					<li>
+						<span class="asure-1"></span>
+						100多个品牌授权
+					</li>
+					<li>
+						<span class="asure-2"></span>
+						24小时发货
+					</li>
+					<li>
+						<span class="asure-3"></span>
+						保税区正品
+					</li>
+				</ul>
+			</div>
+			<div class="invenstor">
+				<div class="invenstor-inner">
+					<div class="invenstor-1">
+						<h3>投资人说达令</h3>
+						<p>“hi，达令，我是鹿晗，达令投资人，投资比影响人更重要的是责任。”</p>
+					</div>
+					<div class="invenstor-2">
+						<h3>投资人说达令</h3>
+						<p>“达令-一手全球好货--带您够全球，叫你神马值得买。</br>连续两年荣获App store编辑推荐最佳购物类应用。”</p>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p class="top">
+					<a href="#">首页</a>
+					<span>|</span>
+					<a href="#">网站地图</a>
+					<span>|</span>
+					<a href="#">消费者告知书</a>
+					<span>|</span>
+					<a href="#">优惠卷使用规则</a>
+					<span>|</span>
+					<a href="#">退货</a>
+					<span>|</span>
+					<a href="#">关于我们</a>
+					<span>|</span>
+					<a href="#">联系我们</a>
+				</p>
+				<table class="cert">
+					<tr>
+						<td>北京普缇客科技有限公司</td>
+						<td><img src="images/cert.png"/></td>
+						<td><img src="images/cnnic.png"/></td>
+						<td><img src="images/ico_zfb.jpg"/></td>
+					</tr>
+				</table>
+				<p class="bottom">
+					Copyright &copy;2016达令 ， All Right Reserved
+					<span>|</span>
+					京ICP备14009583号-1
+					<span>|</span>
+					京公网备11010502027399
+					<span>|</span>
+					食品流通许可证编号：SP1101051510323113
+				</p>
+			</div>
+		</div>
+		<div id="sidebar">
+			<ul class="sidebar-list1">
+				<li class="sidebar-cart">
+					<i></i>
+					购<br/>物<br/>车<br/>
+					<span class="myCart-sum">0</span>
+				</li>
+				<!--<li>
+					<span class="coupon"></span>
+					<a href="#" class="myCoupon">我的优惠券</a>
+				</li>
+				<li>
+					<span class="collect"></span>
+					<a href="#" class="myCollect">我的收藏</a>
+				</li>-->
+			</ul>
+			<!--<div class="dalingCode">
+				<span class="ico-code"></span>
+				<div class="toPhoneDaling">
+					<span class="code"></span>
+					到手机达令
+				</div>
+			</div>-->
+		</div>
+		
+	</body>
+</html>

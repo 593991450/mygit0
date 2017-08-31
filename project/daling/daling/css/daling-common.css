@@ -1,0 +1,533 @@
+
+/*header*/
+#header-wraper{
+	width:100%;
+	height:30px;  
+	border: 1px solid #dadada;
+	background: #f2f2f2;
+}
+
+/*header-inner*/
+.header-inner{
+	width:1190px;
+	height:30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+/*left*/
+.header-inner .left{
+	float: left;
+}  
+  
+/*right*/  
+.header-inner .right{
+	float: right;
+	margin-right: 32px;
+}
+.header-inner .right ul li{
+	float: left;
+	margin: 0 1em;  
+	line-height: 30px;
+}
+.right ul li a{
+	display: block;
+}
+.right ul li b{  
+	background: url(../images/ico.png) no-repeat -26px -151px;     
+	padding-left:20px ;
+}
+
+
+
+/*top*/
+#top-wraper{
+	width:100%;
+	height:118px;
+}
+/*top-inner*/
+#top-wraper .top-inner{
+	width:1190px;
+	height:118px;
+	margin: auto;
+}
+/*logo*/
+.top-inner .logo{
+	float: left;
+	width:280px;
+	height:40px;
+	background: url(../images/logo.png);
+	margin: 30px 20px 0px 0px;
+}
+.top-inner .logo h1{
+	text-indent: -9999px; 
+}
+.top-inner .logo h1 a{
+	display: block;
+	width:280px;
+	height:40px;
+}
+
+/*promo*/
+.top-inner .promo{
+	float: left;
+	margin: 10px 0px 0px 0px;
+}
+.top-inner .promo a{
+	display: block;
+	width:120px;
+	height:100px;
+}
+
+/*search*/
+.top-inner .search{
+	float: left;
+	margin: 30px 0px 0px 106px;
+}
+.top-inner .search #txt{
+	width:311px;
+	height:38px;
+	font-size:14px;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #6b4185;
+	float: left;
+}
+.top-inner .search #btn{
+	width:82px;
+	height: 38px;
+	background: #6b4185;
+	border: none;
+	cursor: pointer;
+	float: left;
+}
+.top-inner .search a{
+	float: left; 
+	margin:10px 10px 0px 0px ;
+}
+
+
+/*购物车*/
+.top-inner .cart{
+	float:left;
+	width:170px;
+	height:40px;
+	background: #f2f2f2;
+	box-sizing: border-box;
+	border: 1px solid #dadada;
+	border-radius: 3px;
+	position: relative;
+	margin: 30px 0 0 70px;
+}
+.top-inner .cart a{
+	display: block;
+	width:170px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 900;
+}
+.top-inner .cart a i{
+	display: block;
+	width:31px;  
+	height:26px;  
+	background: url(../images/da-header-cart-bg.jpg) no-repeat ;
+	position: absolute;  
+	left: 15px;
+	top: 7px;
+}
+.top-inner .cart a b{
+	display: block;
+	width:9px;
+	height: 14px;
+	background: url(../images/da-header-cart-bg2.png) no-repeat;
+	position: absolute;  
+	left: 140px;
+	top: 12px;
+}
+.top-inner .cart span{
+	display: block;
+	width:20px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	background: #e34755;
+	color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 115px;
+	top: -10px;
+}
+
+
+/*nav*/
+#nav-wraper{
+	width:100%;
+	height:30px;
+	background:#333;
+}
+#nav-wraper .nav-inner{
+	width:1190px;
+	height:30px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-inner .nav a{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 50px;
+}
+.nav-inner .nav a:hover{
+	color: orangered;
+}
+.nav-inner .nav a:nth-of-type(1){
+	display: block;
+	float: left;
+	width:220px;
+	height:30px;
+	text-align: center;
+	background:#654579;
+	margin-left:0 ;
+}
+.nav-inner .nav a:nth-of-type(1) : hover{
+	color: orange;
+}
+
+
+/*subnav*/
+.nav-inner .subnav{
+	width:220px;
+	height:480px;
+	background: #e8e3eb;
+	position: absolute;  
+	left: 0px;
+	top: 30px;
+	display: none;
+}
+.nav-inner .nav a:nth-of-type(1):hover .nav-inner .subnav{
+	display: block;
+}
+
+/*beauty*/
+.nav-inner .subnav .beauty{
+	width:220px;
+	height:120px;
+	border-bottom: 1px dashed #CCCCCC;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding:20px 20px 0 20px;
+}
+.nav-inner .subnav .beauty:hover{
+	background: white;
+}
+.nav-inner .subnav .beauty h2{
+	font-size: 12px;
+}
+.nav-inner .subnav .beauty h2 b{
+	display: block;
+	width: 18px;
+	height:22px;
+	background: url(../images/14387617626466.png);
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.nav-inner .subnav .beauty a{
+	float: left;
+	margin-right:1em;
+}
+
+/*snacks*/
+.nav-inner .subnav .snacks{
+	width:220px;
+	height:120px;
+	border-bottom: 1px dashed #CCCCCC;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding:20px 20px 0 20px;
+}
+.nav-inner .subnav .snacks:hover{
+	background: white;
+}
+.nav-inner .subnav .snacks h2{
+	font-size: 12px;
+}
+.nav-inner .subnav .snacks h2 b{
+	display: block;
+	width: 18px;
+	height:22px;
+	background: url(../images/1438769925573.png);
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.nav-inner .subnav .snacks a{
+	float: left;
+	margin-right:1em;
+}
+
+/*life*/
+.nav-inner .subnav .life{
+	width:220px;
+	height:120px;
+	border-bottom: 1px dashed #CCCCCC;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding:20px 20px 0 20px ;
+}
+.nav-inner .subnav .life:hover{
+	background: white;
+}
+.nav-inner .subnav .life h2{
+	font-size: 12px;
+	
+}
+.nav-inner .subnav .life h2 b{
+	display: block;
+	width: 18px;
+	height:22px;
+	background: url(../images/14387700022379.png);
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.nav-inner .subnav .life a{
+	float: left;
+	margin-right:1em;
+}
+
+/*fashion*/
+.nav-inner .subnav .fashion{
+	width:220px;
+	height:120px;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding:20px 20px 0 20px ;
+}
+.nav-inner .subnav .fashion:hover{
+	background: white;
+}
+.nav-inner .subnav .fashion h2{
+	font-size: 12px;
+	
+}
+.nav-inner .subnav .fashion h2 b{
+	display: block;
+	width: 18px;
+	height:22px;
+	background: url(../images/14387700336975.png);
+	float: left;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.nav-inner .subnav .fashion a{
+	float: left;
+	margin-right:1em;
+}
+
+
+
+/*侧栏*/
+#sidebar{
+	width:40px;
+	height:100%;
+	background: #333;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+}
+
+#sidebar .sidebar-list1{
+	width:40px;
+	height:auto;
+	position: absolute;
+	left: 0px;
+	top:170px;
+}
+.sidebar-list1 li{
+	width:40px;
+	height:120px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	position: relative;
+	padding: 5px 0;
+}
+.sidebar-list1 li:hover{
+	background: #e34755;
+}
+/*购物车图标*/
+.sidebar-list1 .cart i{
+	display: block;
+	width:26px;
+	height:26px;
+	background:url(../images/ico_sidebar.png) -33px 0;
+	margin: 3px 7px 7px 7px;
+}
+.sidebar-list1 .cart .myCart-sum{
+	display: block;
+	width:20px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	background: #e34755;
+	color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+}
+
+.sidebar-list1 li:nth-of-type(2){
+	width:40px;
+	height:50px;
+	margin-top: 0px;
+}
+
+.sidebar-list1 li:nth-of-type(3){
+	width:40px;
+	height:50px;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+#footer{
+	width:100%;
+	height:auto;
+	
+}
+#footer .sure{
+	width:1190px;
+	height:80px;
+	margin: 0 auto;
+}
+.sure ul{
+	
+}
+.sure ul li{
+	float: left;
+	width:170px;
+	height:80px;
+	line-height: 80px;
+	margin-left: 120px;
+	position: relative;
+	box-sizing: border-box;
+	padding:  0 38px;
+}
+.sure ul li:nth-of-type(1){
+	padding: 0;
+}
+.sure ul li .arrow{
+	display: block;
+	width:25px;
+	height:40px;
+	background: url(../images/ico_arrow.png) -45px -30px;
+	float: right;
+	margin-top: 20px;
+}
+.sure ul li .asure-1,.asure-2,.asure-3{
+	display: block;
+	width:30px;
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	top: 25px;
+}
+.sure ul li .asure-1{
+	background: url(../images/ico-assure.png) 0 0;
+}
+.sure ul li .asure-2{
+	background: url(../images/ico-assure.png) -36px 0;
+}
+.sure ul li .asure-3{
+	background: url(../images/ico-assure.png) -73px 0;
+}
+
+
+
+/*inventor*/
+#footer .invenstor{
+	width:100%;
+	height:152px;
+	background: #fff;
+	border-top: 3px solid #e0e0e0;
+}
+.invenstor .invenstor-inner{
+	width:1190px;
+	height:152px;
+	margin: 0 auto;
+	padding: 0 40px;
+	border-bottom:1px solid #ccc ;
+	position: relative;
+}
+.invenstor .invenstor-inner h3{
+	font-size: 16px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.invenstor .invenstor-inner p{
+	font-size: 14px;
+	line-height: 28px;
+}
+
+/*invenstor-1*/
+.invenstor .invenstor-inner .invenstor-1{
+	width:auto;
+	height: auto;
+	position: absolute;
+	left: 100px;
+	top: 50px ;
+}
+/*invenstor-2*/
+.invenstor .invenstor-inner .invenstor-2{
+	width:auto;
+	height: auto;
+	position: absolute;
+	left: 700px;
+	top: 50px ;
+}
+
+/*copyright*/
+#footer .copyright{
+	width:100%;
+	height:180px;
+	text-align: center;
+	overflow: hidden;
+}
+/*top*/
+.copyright .top{
+	margin:30px 0px 0px 0px;
+}
+.copyright .top span{
+	margin: 0 1em;
+}
+/*cert*/
+.copyright .cert{
+	margin: 20px auto 0;
+	width:530px;
+}
+.copyright .cert img{
+	width:114px;
+	height:41px;
+}
+
+/*bottom*/
+.copyright .bottom{
+	margin: 30px 0px 0px 0px;
+}
+.copyright .bottom span{
+	margin: 0 0.5em;
+}

@@ -1,0 +1,187 @@
+
+/*商品详情页*/
+#main-wraper{
+	width:100%;
+	height:auto;
+	/*background: orange;*/
+}
+#main-wraper .main{
+	width:1190px;
+	height:auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*商品详情导航*/
+.main .main-nav{
+	width:1190px;
+	height:48px;
+	border-top:1px solid #ccc ;
+	border-bottom:1px solid #ccc ;
+	margin: 20px 0px 30px 0px;
+	padding: 0px 0px 0px 20px;
+}
+.main .main-nav ul li{
+	width:auto;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 10px;
+	float: left;
+	position: relative;
+	font-size: 14px;
+	/*background: ;*/
+}
+.main .main-nav ul li .home{
+	display: block;
+	width:18px;
+	height:14px;
+	background:url(../images/ico.png) -1px -45px;
+	position: absolute;
+	left: 0px;
+	top: 15px;
+}
+
+
+
+
+/*商品图片*/
+.main .goods{
+	width:800px;
+	height:400px;
+	margin:0px 0px 30px 20px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+}
+/*小图区域*/
+.goods .goods-smallImg{
+	width:300px;
+	height:300px;
+	float: left;
+	margin:50px 50px 0 30px;
+	border: 1px solid #666;
+	position: relative;
+}
+/*小图*/
+.goods .goods-smallImg img{
+	width:300px;
+	height:300px;
+}
+/*小图移动区域*/
+.goods .goods-smallImg .goods-smallArea{
+	width:150px;
+	height:150px;
+	background: burlywood;
+	position: absolute;  
+	left: 0px;
+	top: 0px;
+	opacity: 0.6;
+	display: none;
+}
+/*大图区域*/
+.goods .goods-bigArea{
+	width:400px;
+	height:400px;
+	position: absolute;
+	left: 350px ;
+	top: 0px;
+	border: 1px solid #666;
+	overflow: hidden;
+	display: none;
+}
+/*大图*/
+.goods .goods-bigArea .goods-bigImg{
+	width:800px;
+	height:800px;
+	position: absolute;
+	left: 00px ;
+	top: 00px;
+}
+
+
+/*商品详情*/
+.goods .goods-detail{
+	width:400px;
+	height:400px;
+	/*background: pink;*/
+	float: left;
+}
+/*列表*/
+.goods .goods-detail .goods-detail-tab{
+	width:300px;
+	height:400px;
+	/*border: 1px solid #000;*/  
+	border-collapse: collapse;
+}
+.goods .goods-detail .goods-detail-tab td{
+	width:90px;
+	/*border: 1px solid #000;*/
+	text-align: left;
+	padding: 0px 0px;
+	font-size:12px;
+}
+/*商品名*/
+.goods .goods-detail .goods-detail-tab .name{
+	font-size: 14px;
+	line-height: 24px;
+}
+/*商品价格*/
+.goods .goods-detail .goods-detail-tab .now-price{
+	font-size: 16px;
+	font-weight: 900;
+}
+.goods .goods-detail .goods-detail-tab .old-price{
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.goods .goods-detail .goods-detail-tab .discount{
+	color:red
+}
+
+/*购买数量-加减*/
+.goods .goods-detail .goods-detail-tab .sub , .add{
+	width:30px;
+	height:30px;
+	background: paleturquoise;
+	float: left;
+	font-size: 14px;
+	border: 1px solid lightcoral;
+	cursor: pointer;
+}
+/*购买数量*/
+.goods .goods-detail .goods-detail-tab .buyCount{
+	width:50px;
+	height:26px;
+	border: 1px solid #ccc; 
+	float: left;
+	text-align: center;
+	margin: 0 2px;
+}
+/*商品购买*/
+.goods .goods-detail .goods-detail-tab .buyNow,.intoCart{
+	width:136px;
+	height:34px;
+	border:2px solid #e14958;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: 900;
+}
+/*立即购买*/
+.goods .goods-detail .goods-detail-tab .buyNow{
+	color: #e14958;
+	background: white;
+}
+/*加入购物车*/
+.goods .goods-detail .goods-detail-tab .intoCart{
+	background: #e14958;
+	color: white;
+}
+
+
+/*商品飞*/
+.u-flyer{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	position: fixed ;
+	z-index: 9999;
+}

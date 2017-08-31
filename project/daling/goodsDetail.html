@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>达令商品详情页</title>
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/daling-common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/goodsDetail-1.0.0.css"/>
+		<!--js-->
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/goodsDetai1.0.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/_comment.js" type="text/javascript" charset="utf-8"></script> 
+	</head>
+	<body>
+		<div id="header-wraper">  
+			<div class="header-inner">
+				<div class="left">
+					<a href="#">消费者告知书</a>  
+				</div>
+				<div class="right">
+					<ul>
+						<li><a href="#">登录</a></li>
+						<li>|</li>
+						<li><a href="#">注册</a></li>
+						<li>|</li>
+						<li>
+							<b>400-080-1888</b>
+						</li>
+						<li>|</li>
+						<li><a href="#">下载达令app</a></li>
+					</ul>
+				</div>
+			</div>  
+		</div>
+		<div id="top-wraper">
+			<div class="top-inner">
+				<div class="logo">
+					<h1>
+						<a href="#" title="一手全球好货">达令网</a>
+					</h1>
+				</div>
+				<div class="promo">
+					<a href="#"><img src="images/15026953283528.gif"/></a>
+				</div>
+				<div class="search">
+					<form action="" method="" action="">
+						<input type="text" id="txt" placeholder="搜索" />
+						<input type="button" id="btn" value="搜索"/>
+					</form>
+					<a href="#">口红</a>
+					<a href="#">面膜</a>
+					<a href="#">耳饰</a>
+					<a href="#">日系美妆</a>
+					<a href="#">化妆水</a>
+					<a href="#">底妆</a>
+					<a href="#">乳霜</a>
+					<a href="#">洁面</a>
+					<a href="#">防晒</a>
+				</div>
+				<div class="cart">
+					<a href="">
+						<i></i>
+						我的购物车
+						<b></b>
+					</a>
+					<span class="myCart-sum">0</span>
+				</div>
+			</div>
+		</div>
+		<div id="nav-wraper">
+			<div class="nav-inner">
+				<div class="nav">
+					<a href="#">
+						全部分类
+						<i></i>
+					</a>
+					<a href="#">首页</a>
+					<a href="#">极致美护</a>
+					<a href="#">全球零食</a>
+					<a href="#">创意生活</a>
+					<a href="#">时尚配饰</a>
+					<a href="#">尖货女装</a>
+					<a href="#">3C家电</a>	
+				</div>
+				<div class="subnav">
+					<div class="beauty">
+						<h2>
+							<b></b>
+							极致美护
+						</h2>
+						<a href="#">面膜</a>
+						<a href="#">化妆水</a>
+						<a href="#">洁面</a>
+						<a href="#">防晒</a>
+						<a href="#">面霜/乳液</a>
+						<a href="#">卸妆</a>
+						<a href="#">精华</a>
+					</div>
+					<div class="snacks">
+						<h2>
+							<b></b>
+							全球零食
+						</h2>
+						<a href="#">饼干</a>
+						<a href="#">威化</a>
+						<a href="#">蜂蜜</a>
+						<a href="#">麦片</a>
+						<a href="#">糖果</a>
+						<a href="#">巧克力</a>
+						<a href="#">膨化零食</a>
+						<a href="#">咖啡</a>
+					</div>
+					<div class="life">
+						<h2>
+							<b></b>
+							创意生活
+						</h2>
+						<a href="#">水杯/保温杯</a>
+						<a href="#">随声小物件</a>
+						<a href="#">玩偶</a>
+						<a href="#">钥匙挂件</a>
+					</div>
+					<div class="fashion">
+						<h2>
+							<b></b>
+							时尚配饰
+						</h2>
+						<a href="#">奢侈品</a>
+						<a href="#">配饰</a>
+						<a href="#">箱包</a>
+						<a href="#">项链</a>
+						<a href="#">手链</a>
+						<a href="#">耳饰</a>
+						<a href="#">戒指</a>
+						<a href="#">太阳镜</a>
+					</div>
+				</div>
+				<!--弹出框-->
+				<!--<div class="categrory">
+					<div class="categrory-beauty">
+						<h2>极致美护</h2>
+					</div>
+					<div class="categrory-snacks">
+						<h2>全球零四</h2>
+					</div>
+					<div class="categrory-life">
+						<h2>创意生活</h2>
+					</div>
+					<div class="categrory-fashion">
+						<h2>时尚配饰</h2>
+					</div>
+				</div>-->
+			</div>
+		</div>
+		<div id="main-wraper">
+			<div class="main clear">
+				<div class="main-nav">
+					<ul>
+						<li>
+							<span class="home"></span>
+							<span class="arrow"></span>
+						</li>
+						<li>
+							<i class="goods-name">韩国MISKIN贵妇钻石葡萄酒水合眼膜(60片)</i>
+						</li>
+					</ul>
+				</div>
+				<div class="goods">
+					<div class="goods-smallImg">
+						<img src="images/todayNew_05.jpg"/>
+						<div class="goods-smallArea"></div>
+					</div>
+					<div class="goods-bigArea">
+						<img src="images/todayNew_05.jpg" class="goods-bigImg"/>
+					</div>
+					<div class="goods-detail">
+						<table class="goods-detail-tab">
+							<tr>
+								<td class="name" colspan="4">[韩国 · 保湿美白耀眼双眸] miskin 韩国MISKIN贵妇红宝石粉色记忆眼膜贴(60片)</td>
+							</tr>
+							<tr>
+								<td>达令价</td>
+								<td class="now-price">￥88</td>
+								<td class="old-price">￥139</td>
+								<td class="discount">6折</td>
+							</tr>
+							<tr>
+								<td>收藏</td>
+								<td class="collect" colspan="3">88人收藏</td>
+								
+							</tr>
+							<tr>
+								<td>购买数量</td>  
+								<td colspan="3">
+									<input type="button" class="sub" value="-"/>
+									<input type="text" class="buyCount" value="1"/>
+									<input type="button" class="add" value="+"/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="button" value="立即购买" class="buyNow" />
+								</td>
+								<td colspan="2">
+									<input type="button" value="加入购物车" class="intoCart" />
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="sure">
+				<ul>
+					<li>
+						为什么选择达令
+						<span class="arrow"></span>
+					</li>
+					<li>
+						<span class="asure-1"></span>
+						100多个品牌授权
+					</li>
+					<li>
+						<span class="asure-2"></span>
+						24小时发货
+					</li>
+					<li>
+						<span class="asure-3"></span>
+						保税区正品
+					</li>
+				</ul>
+			</div>
+			<div class="invenstor">
+				<div class="invenstor-inner">
+					<div class="invenstor-1">
+						<h3>投资人说达令</h3>
+						<p>“hi，达令，我是鹿晗，达令投资人，投资比影响人更重要的是责任。”</p>
+					</div>
+					<div class="invenstor-2">
+						<h3>投资人说达令</h3>
+						<p>“达令-一手全球好货--带您够全球，叫你神马值得买。</br>连续两年荣获App store编辑推荐最佳购物类应用。”</p>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p class="top">
+					<a href="#">首页</a>
+					<span>|</span>
+					<a href="#">网站地图</a>
+					<span>|</span>
+					<a href="#">消费者告知书</a>
+					<span>|</span>
+					<a href="#">优惠卷使用规则</a>
+					<span>|</span>
+					<a href="#">退货</a>
+					<span>|</span>
+					<a href="#">关于我们</a>
+					<span>|</span>
+					<a href="#">联系我们</a>
+				</p>
+				<table class="cert">
+					<tr>
+						<td>北京普缇客科技有限公司</td>
+						<td><img src="images/cert.png"/></td>
+						<td><img src="images/cnnic.png"/></td>
+						<td><img src="images/ico_zfb.jpg"/></td>
+					</tr>
+				</table>
+				<p class="bottom">
+					Copyright &copy;2016达令 ， All Right Reserved
+					<span>|</span>
+					京ICP备14009583号-1
+					<span>|</span>
+					京公网备11010502027399
+					<span>|</span>
+					食品流通许可证编号：SP1101051510323113
+				</p>
+			</div>
+		</div>
+		<div id="sidebar">
+			<ul class="sidebar-list1">
+				<li class="sidebar-cart">
+					<i></i>
+					购<br/>物<br/>车<br/>
+					<span class="myCart-sum">0</span>
+				</li>
+				<!--<li>
+					<span class="coupon"></span>
+					<a href="#" class="myCoupon">我的优惠券</a>
+				</li>
+				<li>
+					<span class="collect"></span>
+					<a href="#" class="myCollect">我的收藏</a>
+				</li>-->
+			</ul>
+			<!--<div class="dalingCode">
+				<span class="ico-code"></span>
+				<div class="toPhoneDaling">
+					<span class="code"></span>
+					到手机达令
+				</div>
+			</div>-->
+		</div>
+	</body>
+</html>

@@ -1,0 +1,749 @@
+
+
+
+
+/*banner*/
+/*轮播图*/
+#banner-wraper{
+	width:100%;  
+	height:520px;
+	position: relative;
+}
+#banner-wraper .banner-lb{
+	width:100%;
+	height:520px;
+	overflow: hidden;
+	position: absolute;
+	/*left: 0px;
+	top: 0px;*/
+}  
+#banner-wraper .banner-lb li{
+	width:100%;
+	height:520px;
+	background-size:cover ;
+	/*float: left;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+} 
+#banner-wraper .banner-lb li a{
+	display: block;
+	width:1190px;
+	height:520px;
+	margin: 0 auto;
+}
+
+/*轮播图小图*/
+/*#banner-wraper .banner-lb2{
+	width:auto;
+	height:100px;
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}
+#banner-wraper .banner-lb2 li,.banner-lb2 li img{
+	width:100px;
+	height:100px;
+	border: 2px solid wheat;
+	float: left;
+	margin-right: 20px;
+}
+#banner-wraper .banner-lb2 li{
+	opacity: 0.3;
+}
+.banner-lb2 .active{
+	opacity: 1;
+}*/
+
+
+
+/*main*/
+#main{
+	width:100%;
+	height:auto;
+	margin-bottom: 10px;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+
+/*发现好货*/
+#main .findHaohuo{
+	width:1190px;
+	height:100%;
+	margin: 50px auto;
+	position: relative;
+}
+/*发现好货标题*/
+#main .findHaohuo .findHaohuo-title{
+	width:430px;
+	height:50px;
+	text-align: center;
+	border-top:2px solid #000000;
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: -215px;
+}
+#main .findHaohuo .findHaohuo-title p{
+	background: #f9f9f9;
+	font-size: 30px;
+	font-weight: 900;
+	padding:0 10px;
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	margin-left: -80px;
+}
+
+
+/*todayNew*/
+.findHaohuo .todayNew{
+	width:1190px;
+	height:auto;
+}
+.findHaohuo .todayNew h2{
+	height:32px;
+	line-height:32px;
+	padding: 0 20px;
+	margin:25px 0 10px;
+	font-size: 14px;
+}
+.findHaohuo .todayNew h2 .ico-todayNew{
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	background: url(../images/ico-title.png) 0 -39px;
+	margin-right: 5px;
+}
+.findHaohuo .todayNew h2 a{
+	display: block;
+	float: right;
+	width:90px;
+	height: 30px;
+	background: #e14958;
+	color: white;
+	font-size:16px ;
+	line-height: 30px;
+	text-align: center;
+	position: relative;
+}
+.findHaohuo .todayNew h2 a .refesh{
+	display: block;
+	width:23px;
+	height:18px;
+	background: url(../images/ico.png) 0 -136px;
+	float: right;
+	margin: 5px;
+}
+
+
+/*todayNew-box*/
+/*今日上新*/
+.findHaohuo .todayNew-box{
+	width:1190px;
+	height: 660px;
+}
+.findHaohuo .todayNew-box ul{
+	width:1190px;
+	height: auto;
+}
+.findHaohuo .todayNew-box ul li{
+	float: left;
+	width:283px;
+	height: 378px;
+	border: 1px solid #ccc;
+	margin-left: 16px;
+	background: white;
+}
+/*鼠标移入，阴影显示，加入购物车显示*/
+.findHaohuo .todayNew-box ul li:hover{
+	box-shadow: 0 0 10px #d5d2d2;
+}
+.findHaohuo .todayNew-box ul li:nth-of-type(1){
+	margin-left: 0px;
+}
+.findHaohuo .todayNew-box ul li .new-img{
+	display: block;
+	width:281px;
+	height:266px;
+	position: relative;
+	border: 1px solid #ccc;
+}
+.findHaohuo .todayNew-box ul li a .option{
+	width:283px;
+	height:32px;
+	line-height: 32px;
+	background: pink;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	display: none;
+}
+
+.findHaohuo .todayNew-box ul li:hover .option{
+	display: block;
+}
+
+.findHaohuo .todayNew-box ul li a .option .ico-get-cart{
+	display: block;
+	width: 18px;
+	height: 16px;
+	background: url(../images/ico.png) 0 -88px;
+	position: absolute;
+	left: 180px;
+	top: 7px;
+}
+
+/*.findHaohuo .todayNew-box ul li .todayNew-img{
+	width:283px;
+	height: 378px;
+}*/
+.findHaohuo .todayNew-box ul li .todayNew-img img{
+	width:283px;
+	height: 268px;
+}
+
+.findHaohuo .todayNew-box ul li .data{
+	padding: 8px 26px 0px;
+}
+.data .price{
+	margin-bottom:20px ;
+}
+/*目前价格*/
+.data .price .now-price{
+	font-size: 20px;
+	color:#e14958;
+}
+/*过去的价格*/
+.data .price .old-price{
+	text-decoration: line-through;
+}
+/*收藏*/
+.data .price .collect{
+	float: right;
+	line-height: 24px;
+}
+.data .title{
+	line-height: 24px;
+}
+.data .price .now-price{
+	padding-right:10px ;
+}
+
+.data .price .old-price{
+	padding-right:20px ;
+}
+.data .title .discount{
+	color: #e14958;
+	font-weight: 900;
+}
+
+
+
+
+/*今日上新列表2*/
+/*todayNew-list2*/
+.todayNew .todayNew-box .todayNew-list2{
+	margin-top:20px
+}
+
+.todayNew .todayNew-box .todayNew-list2 li{
+	width:583px;
+	height:238px;
+	float: left;
+	border: 1px solid #ccc;
+}
+/*todayNew-list2 .new-img*/
+.todayNew .todayNew-box .todayNew-list2 .new-img{
+	float: left;
+	width:283px;
+	height:238px;
+}
+
+.todayNew .todayNew-box .todayNew-list2 .new-img img{
+	width:283px;
+	height:238px;
+}
+
+.todayNew .todayNew-box .todayNew-list2 .data{
+	width:280px;
+	height:238px;
+	float: right;
+	padding: 50px 30px 0px 0px;
+	box-sizing: border-box;
+	
+}
+
+
+
+
+
+
+/*什么值得买*/
+/*全球好货*/
+.findHaohuo .worthBuy{
+	margin-top: 50px;
+}
+/*标题1*/
+.findHaohuo .worthBuy h2{
+	line-height: 32px;
+	position: relative;
+	padding: 0 40px;
+}
+
+.findHaohuo .worthBuy h2 .ico-worthBuy{
+	display: block;
+	width:32px;
+	height: 32px;
+	background: url(../images/ico-title.png) 0 -78px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+/*全球好货馆*/
+/*标题2*/
+.worthBuy h3{
+	font-size: 16px;
+	padding: 0 40px;
+	position: relative;
+	margin-top:20px ;
+	margin-bottom:10px ;
+}
+.worthBuy h3 .ico-good{
+	display: block;
+	width:11px;
+	height:11px;
+	background: url(../images/ico-title-1.png);
+	position: absolute;
+	left: 25px;
+	top: 6px;
+}
+/*全球好货盒子*/
+.worthBuy .good-wrap{
+	width:1190px;
+	height: auto;
+	background: white;
+	box-sizing: border-box;
+	padding: 40px 20px;
+	margin-top:10px ;
+	overflow: hidden;
+	margin-top: 10px;
+}
+/*全球好货列表*/
+.worthBuy .good-wrap .good-list li{
+	float: left;
+	width:208px;
+	height:140px;
+	margin:11px
+}
+.worthBuy .good-wrap .good-list li a{
+	display: block;
+	width:208px;
+	height:140px;
+}
+
+/*大家都说好*/
+.worthBuy .allsaygood{
+	margin-top:50px;
+}
+/*大家都说好列表1切换*/
+.worthBuy .allsaygood .allsaygood-list1-wrap{
+	width:1190px;
+	height:72px;
+	border-bottom:1px solid #ccc ;
+	background: white;
+	position: relative;
+}
+.worthBuy .allsaygood .allsaygood-list1{
+	position: absolute;
+	left: 40px;
+	bottom: 0px;
+	
+}
+.worthBuy .allsaygood .allsaygood-list1 li{
+	width:88px;
+	height:30px;
+	border:1px solid #ccc;
+	border-bottom:none ;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+.worthBuy .allsaygood .allsaygood-list1 li:hover{
+	background: #E14958;
+	color: white;
+	border: none;
+}
+
+/*大家都说好详细列表2*/
+.worthBuy .allsaygood .allsaygood-list2-wrap{
+	background: white;
+}
+.worthBuy .allsaygood .allsaygood-list2 li{
+	width:280px;
+	float: left;
+	margin: 0 58px;
+}
+/*鼠标滑过*/
+.worthBuy .allsaygood .allsaygood-list2 li:hover{
+	box-shadow: 0 0 10px #d5d2d2;
+}
+
+/*.worthBuy .allsaygood .allsaygood-list2 li .allsaygood-img{
+	width:280px;
+}*/
+.worthBuy .allsaygood .allsaygood-list2 li .allsaygood-img img{
+	width: 280px;
+}
+/*加入购物车*/
+/*.worthBuy .allsaygood .allsaygood-list2 li .option{
+	width:280px;
+	height:32px;
+	line-height: 32px;
+	background: pink;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	position: absolute;
+	left: 0px;
+	bottom: 100px;
+	display: none;
+}
+
+.worthBuy .allsaygood .allsaygood-list2 li a:hover .option{
+	display: block;
+}
+
+.worthBuy .allsaygood .allsaygood-list2 li .option .ico-get-cart{
+	display: block;
+	width: 18px;
+	height: 16px;
+	background: url(../images/ico.png) 0 -88px;
+	position: absolute;
+	left: 180px;
+	top: 7px;
+}*/
+
+/*大家都说好-商品数据*/
+.worthBuy .allsaygood .allsaygood-list2 li .data{
+	padding: 0px 0px 0px 00px;
+}
+.allsaygood-list2 li .data .price{
+	padding: 10px 10px 0 20px;
+}
+
+.allsaygood-list2 li .data .title{
+	margin-left: 20px;
+}
+.allsaygood-list2 li .data .comment{
+	display: block;
+	width:280px;
+	height:50px;
+	background: #fffde6;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.allsaygood-list2 li .data .comment .face{
+	width:35px;
+	height: 35px;
+	border-radius:50% ;
+	/*background: url(../images/1457936137883.jpg);*/
+	background-size:cover;
+	float: left;
+	margin:7.5px -20px 0px 30px
+}
+
+/*买了又买*/
+.worthBuy .buy-again{
+	margin-top: 50px;
+}
+.worthBuy .buy-again .buy-again-wrap{
+	width:1190px;
+	height:550px;
+	background: white;
+}
+
+/*买了又买列表1*/
+.buy-again .buy-again-wrap dl{
+	width:396px;
+	height:550px;
+	float: left;
+}
+.buy-again .buy-again-wrap dl dt{
+	width:396px;
+	height:45px;  
+	line-height: 45px;
+	font-size: 16px;
+	color:#e14958;
+	text-align: center;
+	border-bottom:1px solid #ccc ;
+} 
+
+.buy-again .buy-again-wrap dl .top{
+	width:396px;
+	height:45px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+/*鼠标滑过*/
+.buy-again .buy-again-wrap dl .top:hover{
+	height:180px;
+}
+
+.buy-again .buy-again-wrap dl .top .tag{
+	width:70px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+	font-size:12px ;
+	background: #e14958;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.buy-again .buy-again-wrap dl .top .buy-again-img{
+	width:45px;
+	height:45px;
+	float: left;
+	margin-left: 90px;
+}
+/*鼠标滑过*/
+.buy-again .buy-again-wrap dl .top:hover .buy-again-img{
+	width:166px;
+	height:166px;
+	float: left;
+	margin-left: 0px;
+}
+
+.buy-again .buy-again-wrap dl .top .buy-again-img img{
+	width:45px;
+	height:45px;
+}
+.buy-again .buy-again-wrap dl .top:hover .buy-again-img img{
+	width:166px;
+	height:166px;
+}
+
+.buy-again .buy-again-wrap dl .top .data{
+	float: right;
+	width:230px;
+	height:45px;
+	box-sizing: border-box;
+	padding: 13px 20px 0px 0px ;
+	overflow: hidden;
+	text-overflow: ellipsis;	
+}
+
+.buy-again .buy-again-wrap dl .top:hover .data{
+	float: right;
+	width:230px;
+	height: 166px;
+	box-sizing: border-box;
+	padding: 13px 20px 0px 0px ;
+}
+
+/*top其他的dd*/
+
+
+
+
+
+
+
+/*今日闪购*/
+#main .todayDiscount{
+	width:1190px;
+	height:100%;
+	margin: 50px auto;
+	position: relative;
+}
+/*今日闪购标题*/
+#main .todayDiscount .todayDiscount-title{
+	width:430px;
+	height:50px;
+	text-align: center;
+	border-top:2px solid #000000;
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: -215px;
+}
+
+#main .todayDiscount .todayDiscount-title p{
+	background: #f9f9f9;
+	font-size: 30px;
+	font-weight: 900;
+	padding:0 10px;
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	margin-left: -110px;
+}
+
+.todayDiscount .todayDiscount-wrap{
+	width:1190px;
+	height:auto;
+}
+
+.todayDiscount .todayDiscount-wrap h2{
+	height:32px;
+	line-height:32px;
+	padding: 0 20px;
+	margin:25px 0 10px;
+	font-size: 14px;
+}
+
+.todayDiscount .todayDiscount-wrap h2 .ico-todayDiscount{
+	display: block;
+	float: left;
+	width:32px;
+	height:32px;
+	background: url(../images/ico-title.png) 0 -39px;
+	margin-right: 5px;
+}
+
+/*今日抢购列表1*/
+.todayDiscount-wrap .todayDiscount-list1{
+	width:786px;
+	height:auto;
+	float: left;
+	margin-right: 0px;
+}
+.todayDiscount-wrap .todayDiscount-list1 ul{
+	
+}
+
+.todayDiscount-wrap .todayDiscount-list1 ul li{
+	width:786px;
+	height:282px;
+	background: white;
+	margin-bottom: 50px;
+}
+
+.todayDiscount-wrap .todayDiscount-list1 ul li .todayDiscount-a{
+	width:492px;
+	height:282px;
+	float: left;
+}
+
+.todayDiscount-wrap .todayDiscount-list1 ul li .todayDiscount-a .todayDiscount-img{
+	width:392px;
+	height:282px;
+	padding: 0 50px;
+}
+
+.todayDiscount-wrap .todayDiscount-list1 ul li .todayDiscount-a .todayDiscount-img img{
+	width:282px;
+	height:282px;
+	margin:0 auto;
+}
+
+.todayDiscount-wrap .todayDiscount-list1 ul li .data{
+	width:294px;
+	height:282px;
+	box-sizing: border-box;
+	padding: 50px 50px 0px 0px;
+	float: left;
+}
+
+.todayDiscount-wrap .todayDiscount-list1 ul li .data .buyNow{
+	margin-top: 70px;
+	line-height: 40px;
+}
+
+.todayDiscount-wrap .todayDiscount-list1 ul li .data .buyNow .buy{
+	display: block;
+	width:140px;
+	height:40px;
+	background:#e14958;
+	color:white;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	margin-right: 20px;
+}
+
+/*今日闪购列表2*/
+.todayDiscount-wrap .todayDiscount-list2{
+	width:385px;
+	height:auto;
+	float: right;
+	margin-right: 0px;
+	margin-top: 10px;
+}
+
+.todayDiscount-wrap .todayDiscount-list2 .title{
+	line-height: 24px;
+	text-align: center;
+}
+
+.todayDiscount-wrap .todayDiscount-list2 .title span:nth-of-type(1){
+	font-size: 18px;
+}
+
+.todayDiscount-wrap .todayDiscount-list2 .title span:nth-of-type(2){
+	font-size: 14px;
+}
+
+.todayDiscount-wrap .todayDiscount-list2 ul{
+	
+}
+
+.todayDiscount-wrap .todayDiscount-list2 ul li{
+	width:385px;
+	height:195px;
+	background: white;
+	margin-top: 15px;
+}
+
+.todayDiscount-list2 ul li .todayDiscount-a{
+	width:200px;
+	height:195px;
+	float: left;
+}
+.todayDiscount-list2 ul li .todayDiscount-a img{
+	width:200px;
+	height:195px;
+}
+
+.todayDiscount-list2 ul li .data{
+	width:150px;
+	height:195px;
+	padding:20px 15px 0px 0px;
+	box-sizing: border-box;
+	float: right;
+}
+
+.todayDiscount-list2 ul li .data .buyNow{
+	line-height: 20px;
+	margin-top: 30px;
+}
+.todayDiscount-list2 ul li .data .buyNow .getCart{
+	display: block;
+	width:75px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	background: #e14958;
+	float: left;
+	margin-right: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车动画</title>
+		<style type="text/css">
+			#box1{
+				width:100px;
+				height:100px;
+				background: red;
+				position: absolute;
+				left: 600px;
+				top: 600px;
+			}
+			.u-flyer{
+				display: block;
+				width: 50px;
+				height: 50px;
+				border-radius: 50px;
+				position: fixed;
+				z-index: 9999;
+			}
+		</style>
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(function(){
+				
+				var offset = $("#box1").offset();
+				console.log(offset.left);
+				$(document).click(function(e){
+					
+					console.log(e.offsetX);
+					console.log(e.offsetY);
+					var img = "images/newBlack-03.jpg"
+					var flyer = $('<img class="u-flyer" src="'+img+'">');
+					flyer.fly({
+						//开始位置
+						start: {
+							left: e.clientX,
+							top: e.clientY
+						},
+						//结束位置
+						end: {
+							left: offset.left,
+							top: offset.top,
+							width: 0,
+							height: 0
+						},
+						//结束后
+						onEnd: function(){
+							console.log("结束");
+							$("#msg").show().animate({width: '250px'}, 200).fadeOut(1000);
+							flyer.remove();
+						}
+					});
+					
+					
+					
+				})
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div id="box1">
+			
+		</div>
+	</body>
+</html>

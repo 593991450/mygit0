@@ -1,0 +1,69 @@
+
+[
+	{
+		"id" : 101,
+		"img" : "images/todayNew_00.jpg",
+		"name" : "[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)",
+		"nowPrice" : 888,
+		"oldPrice" : 999,
+		"unit" : "￥",
+		"collect" : 77,
+		"discount" : 2, 
+		"endTime": "2018-08-25 01:01:10"
+	},
+	{
+		"id" : 102,
+		"img" : "images/todayNew_01.jpg",
+		"name" : "[意大利 · 轻松打造玻璃唇] ARMANI 小胖丁丝绒唇釉(3.9ml 602#)",
+		"nowPrice" : 888,
+		"oldPrice" : 999,
+		"unit" : "￥",
+		"collect" : 77,
+		"discount" : 2, 
+		"endTime": "2018-08-25 01:01:10"
+	},
+	{
+		"id" : 103,
+		"img" : "images/todayNew_02.jpg",
+		"name" : "[韩国 · 肌肤的天源之气] The History Of Whoo 后拱辰享阴阳套装礼盒",
+		"nowPrice" : 139,
+		"oldPrice" : 240,
+		"unit" : "￥",
+		"collect" : 141,
+		"discount" : 5, 
+		"endTime": "2018-08-25 01:01:10"
+	},
+	{
+		"id" : 104,
+		"img" : "images/todayNew_03.jpg",
+		"name" : "[国货精选 · 吃货刮油茶] 喜善花房 大麦茶(220g 200 原味 1罐)",
+		"nowPrice" : 799,
+		"oldPrice" : 1798,
+		"unit" : "￥",
+		"collect" : 48,
+		"discount" : 4, 
+		"endTime": "2018-08-25 01:01:10"
+	},
+	{
+		"id" : 105,
+		"img" : "images/todayNew_04.jpg",
+		"name" : "[意大利 · 轻松打造玻璃唇] ARMANI 小胖丁丝绒唇釉(3.9ml 602#)",
+		"nowPrice" : 278,
+		"oldPrice" : 698,
+		"unit" : "￥",
+		"collect" : 65,
+		"discount" : 3, 
+		"endTime": "2018-08-25 01:01:10"
+	},
+	{
+		"id" : 106,
+		"img" : "images/todayNew_05.jpg",
+		"name" : "IM蓝色白夹墨水/钢笔(钢笔+墨水)",
+		"nowPrice" : 399,
+		"oldPrice" : 658,
+		"unit" : "￥", 
+		"collect" : 37,
+		"discount" : 6, 
+		"endTime": "2018-08-25 01:01:10"
+	}
+]

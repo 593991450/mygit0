@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">  
+		<title>达令网</title>
+		<!--样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>  
+		<link rel="stylesheet" type="text/css" href="css/daling-common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/darling-style1.0.0.css"/>
+		<!--js-->
+		<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lunbo.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/goodsDetail.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/intoCart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="header-wraper">
+			<div class="header-inner">
+				<div class="left">
+					<a href="#">消费者告知书</a>  
+				</div>
+				<div class="right">
+					<ul>
+						<li><a href="#">登录</a></li>
+						<li>|</li>
+						<li><a href="#">注册</a></li>
+						<li>|</li>
+						<li>
+							<b>400-080-1888</b>
+						</li>
+						<li>|</li>
+						<li><a href="#">下载达令app</a></li>
+					</ul>
+				</div>
+			</div>  
+		</div>
+		<div id="top-wraper">
+			<div class="top-inner">
+				<div class="logo">
+					<h1>
+						<a href="#" title="一手全球好货">达令网</a>
+					</h1>
+				</div>
+				<div class="promo">
+					<a href="#"><img src="images/15026953283528.gif"/></a>
+				</div>
+				<div class="search">
+					<form action="" method="" action="">
+						<input type="text" id="txt" placeholder="搜索" />
+						<input type="button" id="btn" value="搜索"/>
+					</form>
+					<a href="#">口红</a>
+					<a href="#">面膜</a>
+					<a href="#">耳饰</a>
+					<a href="#">日系美妆</a>
+					<a href="#">化妆水</a>
+					<a href="#">底妆</a>
+					<a href="#">乳霜</a>
+					<a href="#">洁面</a>
+					<a href="#">防晒</a>
+				</div>
+				<div class="cart">
+					<a href="">
+						<i></i>
+						我的购物车
+						<b></b>
+					</a>
+					<span class="myCart-sum">0</span>
+				</div>
+			</div>
+		</div>
+		<div id="nav-wraper">
+			<div class="nav-inner">
+				<div class="nav">
+					<a href="#">
+						全部分类
+						<i></i>
+					</a>
+					<a href="#">首页</a>
+					<a href="#">极致美护</a>
+					<a href="#">全球零食</a>
+					<a href="#">创意生活</a>
+					<a href="#">时尚配饰</a>
+					<a href="#">尖货女装</a>
+					<a href="#">3C家电</a>	
+				</div>
+				<div class="subnav">
+					<div class="beauty">
+						<h2>
+							<b></b>
+							极致美护
+						</h2>
+						<a href="#">面膜</a>
+						<a href="#">化妆水</a>
+						<a href="#">洁面</a>
+						<a href="#">防晒</a>
+						<a href="#">面霜/乳液</a>
+						<a href="#">卸妆</a>
+						<a href="#">精华</a>
+					</div>
+					<div class="snacks">
+						<h2>
+							<b></b>
+							全球零食
+						</h2>
+						<a href="#">饼干</a>
+						<a href="#">威化</a>
+						<a href="#">蜂蜜</a>
+						<a href="#">麦片</a>
+						<a href="#">糖果</a>
+						<a href="#">巧克力</a>
+						<a href="#">膨化零食</a>
+						<a href="#">咖啡</a>
+					</div>
+					<div class="life">
+						<h2>
+							<b></b>
+							创意生活
+						</h2>
+						<a href="#">水杯/保温杯</a>
+						<a href="#">随声小物件</a>
+						<a href="#">玩偶</a>
+						<a href="#">钥匙挂件</a>
+					</div>
+					<div class="fashion">
+						<h2>
+							<b></b>
+							时尚配饰
+						</h2>
+						<a href="#">奢侈品</a>
+						<a href="#">配饰</a>
+						<a href="#">箱包</a>
+						<a href="#">项链</a>
+						<a href="#">手链</a>
+						<a href="#">耳饰</a>
+						<a href="#">戒指</a>
+						<a href="#">太阳镜</a>
+					</div>
+				</div>
+				<!--弹出框-->
+				<!--<div class="categrory">
+					<div class="categrory-beauty">
+						<h2>极致美护</h2>
+					</div>
+					<div class="categrory-snacks">
+						<h2>全球零四</h2>
+					</div>
+					<div class="categrory-life">
+						<h2>创意生活</h2>
+					</div>
+					<div class="categrory-fashion">
+						<h2>时尚配饰</h2>
+					</div>
+				</div>-->
+			</div>
+		</div>
+		<div id="banner-wraper">
+			<ul class="banner-lb">
+				<!--<li>
+					<a href="#"></a>
+				</li>-->
+			</ul>
+			<!--<ul class="banner-lb2">
+				<li><img src="images/lb_00.jpg"/></li>
+				<li><img src="images/lb_01.jpg"/></li>
+				<li><img src="images/lb_02.jpg"/></li>
+				<li><img src="images/lb_03.jpg"/></li>
+				<li><img src="images/lb_04.jpg"/></li>
+			</ul>-->
+		</div>
+		<div id="main">
+			<!--发现好货-->
+			<div class="findHaohuo clear">
+				<div class="findHaohuo-title clear">
+					<p>发现●好货</p>
+				</div>
+				<!--今日上新-->
+				<div class="todayNew">
+					<h2>
+						<span class="ico-todayNew"></span>
+						<span>今日上新&nbsp;&nbsp;&nbsp;</span>  
+						<span>早八点上新</span>
+						<a href="#">
+							换一换
+							<span class="refesh"></span>
+						</a>
+					</h2>
+					<div class="todayNew-box">
+						<ul class="todayNew-list1 clear">
+							<li>
+								<a href="javascript:;" class="new-img">
+									<div class="todayNew-img">
+										<!--<img src="images/FA163E0BD2F9H73G0BM8Q3W5H2H.jpg"/>-->
+									</div>
+									<div class="bgoption"></div>
+									<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>
+								</a>
+								<div class="data">
+									<p class="price">
+										<span class="now-price"><!--￥100--></span>
+										<span class="old-price"><!--￥120--></span>
+										<span class="collect"><!--99人收藏--></span>
+									</p>
+									<p class="title">
+										<span class="discount"><!--2折 /--></span>
+										<a href="javascript:;">
+											<!--[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)-->
+										</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="javascript:;" class="new-img">
+									<div class="todayNew-img">
+										<!--<img src="images/FA163E0BD2F9H73G0BM8Q3W5H2H.jpg"/>-->
+									</div>
+									<div class="bgoption"></div>
+									<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>
+								</a>
+								<div class="data">
+									<p class="price">
+										<span class="now-price"><!--￥100--></span>
+										<span class="old-price"><!--￥120--></span>
+										<span class="collect"><!--99人收藏--></span>
+									</p>
+									<p class="title">
+										<span class="discount"><!--2折 /--></span>
+										<a href="javascript:;">
+											<!--[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)-->
+										</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="javascript:;" class="new-img">
+									<div class="todayNew-img">
+										<!--<img src="images/FA163E0BD2F9H73G0BM8Q3W5H2H.jpg"/>-->
+									</div>
+									<div class="bgoption"></div>
+									<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>
+								</a>
+								<div class="data">
+									<p class="price">
+										<span class="now-price"><!--￥100--></span>
+										<span class="old-price"><!--￥120--></span>
+										<span class="collect"><!--99人收藏--></span>
+									</p>
+									<p class="title">
+										<span class="discount"><!--2折 /--></span>
+										<a href="javascript:;">
+											<!--[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)-->
+										</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="javascript:;" class="new-img">
+									<div class="todayNew-img">
+										<!--<img src="images/FA163E0BD2F9H73G0BM8Q3W5H2H.jpg"/>-->
+									</div>
+									<div class="bgoption"></div>
+									<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>
+								</a>
+								<div class="data">
+									<p class="price">
+										<span class="now-price"><!--￥100--></span>
+										<span class="old-price"><!--￥120--></span>
+										<span class="collect"><!--99人收藏--></span>
+									</p>
+									<p class="title">
+										<span class="discount"><!--2折 /--></span>
+										<a href="javascript:;">
+											<!--[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)-->
+										</a>
+									</p>
+								</div>
+							</li>
+						</ul>
+						<ul class="todayNew-list2 clear">
+							<li>
+								<a href="javascript:;" class="new-img">
+									<div class="todayNew-img">
+										<!--<img src="images/FA163E0BD2F9H73G0BM8Q3W5H2H.jpg"/>-->
+									</div>
+									<div class="bgoption"></div>
+									<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>
+								</a>
+								<div class="data">
+									<p class="price">
+										<span class="now-price"><!--￥100--></span>
+										<span class="old-price"><!--￥120--></span>
+										<span class="collect"><!--99人收藏--></span>
+									</p>
+									<p class="title">
+										<span class="discount"><!--2折 /--></span>
+										<a href="javascript:;">
+											<!--[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)-->
+										</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="javascript:;" class="new-img">
+									<div class="todayNew-img">
+										<!--<img src="images/FA163E0BD2F9H73G0BM8Q3W5H2H.jpg"/>-->
+									</div>
+									<div class="bgoption"></div>
+									<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>
+								</a>
+								<div class="data">
+									<p class="price">
+										<span class="now-price"><!--￥100--></span>
+										<span class="old-price"><!--￥120--></span>
+										<span class="collect"><!--99人收藏--></span>
+									</p>
+									<p class="title">
+										<span class="discount"><!--2折 /--></span>
+										<a href="javascript:;">
+											<!--[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)-->
+										</a>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--神马值得买-->
+				<div class="worthBuy">
+					<h2>
+						<span class="ico-worthBuy"></span>
+						<span>神马值得买&nbsp;&nbsp;&nbsp;</span>  
+						<span>帮你挑选全球好货</span>
+					</h2>
+					<div class="good">
+						<h3>
+							<span class="ico-good"></span>
+							<span>全球好货</span>
+						</h3>
+						<div class="good-wrap">
+							<ul class="good-list">
+								<li>
+									<a href="#" title="泰国馆">
+										<img src="images/14713140905240.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="澳大利亚馆">
+										<img src="images/14713141041442.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="日本馆">
+										<img src="images/1471314125401.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="法国馆">
+										<img src="images/14713149178380.jpg"/>
+									</a>
+								</li>
+								<li>
+									<a href="#" title="韩国馆">
+										<img src="images/14713141586562.jpg"/>
+									</a>
+								</li>
+							</ul>
+						</div>	
+					</div>
+					<!--大家都说好-->
+					<div class="allsaygood">
+						<h3>
+							<span class="ico-good"></span>
+							<span>大家都说好</span>
+						</h3>
+						<div class="allsaygood-list1-wrap">
+							<ul class="allsaygood-list1">
+								<li>全部商品</li>
+								<li>极致美护</li>
+								<li>全球零食</li>
+								<li>创意生活</li>
+								<li>时尚配饰</li>
+								<li>3C数码</li>
+							</ul>
+						</div>
+						<div class="allsaygood-list2-wrap">
+							<ul class="allsaygood-list2 clear">
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--买了又买-->
+					<div class="buy-again">
+						<h3>
+							<span class="ico-good"></span>
+							<span>买了又买</span>
+						</h3>
+						<div class="buy-again-wrap">
+							<dl class="beauty">
+								<dt>极致美护</dt>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+								<dl class="beauty">
+								<dt>极致美护</dt>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+								<dl class="beauty">
+								<dt>极致美护</dt>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+								<dd class="top">
+									<span class="tag">TOP1</span>
+									<a href="#">
+										<div class="buy-again-img">
+											<img src="images/14581982567130.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<a href="#">
+											<p class="title">
+												[ · 黑头全部去光光] DMC 欣兰冻膜面膜(225g) 
+											</p>
+										</a>
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<div class="comment">
+											<p class="comment-text">共1000购买</p>
+											<a href="#" class="backBuy">共有2%回头率</a>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="allsaygood">
+						<h3>
+							<span class="ico-good"></span>
+							<span>新品黑马</span>
+						</h3>
+						<!--<div class="allsaygood-list1-wrap">
+							<ul class="allsaygood-list1">
+								<li>全部商品</li>
+								<li>极致美护</li>
+								<li>全球零食</li>
+								<li>创意生活</li>
+								<li>时尚配饰</li>
+								<li>3C数码</li>
+							</ul>
+						</div>-->
+						<div class="allsaygood-list2-wrap">
+							<ul class="allsaygood-list2 clear">
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a href="#">
+										<div class="allsaygood-img">
+											<img src="images/14917984251549.jpg"/>
+										</div>
+										<div class="sign"></div>
+										<div class="bgoption"></div>
+										<!--<div class="option">
+											加入购物车
+											<span class="ico-get-cart"></span>
+										</div>-->
+									</a>
+									<div class="data">
+										<p class="price">
+											<span class="now-price">￥100</span>
+											<span class="old-price">￥120</span>
+										</p>
+										<a href="#">
+											<p class="title">
+												[ · 没有它等着晒黑吧] RECIPE 莱斯璧水晶防晒喷雾(SPF30/PA+++/150ml)
+											</p>
+										</a>
+										<a href="#" class="comment">
+											<div class="face"></div>
+											<div class="comment-text">
+												<p>“挺不错的，主要是方便”</p>
+												共有26295条评论 好评率98%
+											</div>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--今日特卖-->
+			<div class="todayDiscount clear">
+				<div class="todayDiscount-title clear">
+					<p>今日特卖●闪购</p>
+				</div>
+				<div class="todayDiscount-wrap">
+					<h2>
+						<span class="ico-todayDiscount"></span>
+						<span>今日闪购&nbsp;&nbsp;&nbsp;</span>  
+						<span>每天都有惊喜最低5折</span>
+					</h2>
+					<div class="todayDiscount-list1">
+						<ul>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="buy">立即抢购</a>
+										<span class="alBuy">400人已买</span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="buy">立即抢购</a>
+										<span class="alBuy">400人已买</span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="buy">立即抢购</a>
+										<span class="alBuy">400人已买</span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="buy">立即抢购</a>
+										<span class="alBuy">400人已买</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="todayDiscount-list2">
+						<p class="title">
+							<span>闪购预告</span></br>
+							<span>(今晚20:00火爆开售)</span>
+						</p>
+						<ul>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="colle">收藏</a>
+										<a href="#" class="getCart">加入购物车</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="colle">收藏</a>
+										<a href="#" class="getCart">加入购物车</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="colle">收藏</a>
+										<a href="#" class="getCart">加入购物车</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="todayDiscount-a">
+									<div class="todayDiscount-img">
+										<img src="images/1440574008170.jpg"/>
+									</div>
+									<div class="bgoption"></div>
+									<!--<div class="option">
+										加入购物车
+										<span class="ico-get-cart"></span>
+									</div>-->
+								</a>
+								<div class="data clear">
+									<p class="title">
+										<span class="discount">2折 /</span>
+										<a href="#">
+											[美国 · “真爱永恒”的承诺] JLO詹妮弗.洛佩兹故我香水(100ml)
+										</a>
+									</p>
+									<p class="price">
+										<span class="now-price">￥100</span>
+										<span class="old-price">￥120</span>
+									</p>
+									<p class="buyNow">
+										<a href="#" class="colle">收藏</a>
+										<a href="#" class="getCart">加入购物车</a>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="sure">
+				<ul>
+					<li>
+						为什么选择达令
+						<span class="arrow"></span>
+					</li>
+					<li>
+						<span class="asure-1"></span>
+						100多个品牌授权
+					</li>
+					<li>
+						<span class="asure-2"></span>
+						24小时发货
+					</li>
+					<li>
+						<span class="asure-3"></span>
+						保税区正品
+					</li>
+				</ul>
+			</div>
+			<div class="invenstor">
+				<div class="invenstor-inner">
+					<div class="invenstor-1">
+						<h3>投资人说达令</h3>
+						<p>“hi，达令，我是鹿晗，达令投资人，投资比影响人更重要的是责任。”</p>
+					</div>
+					<div class="invenstor-2">
+						<h3>投资人说达令</h3>
+						<p>“达令-一手全球好货--带您够全球，叫你神马值得买。</br>连续两年荣获App store编辑推荐最佳购物类应用。”</p>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p class="top">
+					<a href="#">首页</a>
+					<span>|</span>
+					<a href="#">网站地图</a>
+					<span>|</span>
+					<a href="#">消费者告知书</a>
+					<span>|</span>
+					<a href="#">优惠卷使用规则</a>
+					<span>|</span>
+					<a href="#">退货</a>
+					<span>|</span>
+					<a href="#">关于我们</a>
+					<span>|</span>
+					<a href="#">联系我们</a>
+				</p>
+				<table class="cert">
+					<tr>
+						<td>北京普缇客科技有限公司</td>
+						<td><img src="images/cert.png"/></td>
+						<td><img src="images/cnnic.png"/></td>
+						<td><img src="images/ico_zfb.jpg"/></td>
+					</tr>
+				</table>
+				<p class="bottom">
+					Copyright &copy;2016达令 ， All Right Reserved
+					<span>|</span>
+					京ICP备14009583号-1
+					<span>|</span>
+					京公网备11010502027399
+					<span>|</span>
+					食品流通许可证编号：SP1101051510323113
+				</p>
+			</div>
+		</div>
+		<div id="sidebar">
+			<ul class="sidebar-list1">
+				<li class="cart">
+					<i></i>
+					购<br/>物<br/>车<br/>
+					<span class="myCart-sum">0</span>
+				</li>
+				<!--<li>
+					<span class="coupon"></span>
+					<a href="#" class="myCoupon">我的优惠券</a>
+				</li>
+				<li>
+					<span class="collect"></span>
+					<a href="#" class="myCollect">我的收藏</a>
+				</li>-->
+			</ul>
+			<!--<div class="dalingCode">
+				<span class="ico-code"></span>
+				<div class="toPhoneDaling">
+					<span class="code"></span>
+					到手机达令
+				</div>
+			</div>-->
+		</div>
+	</body>
+</html>  
