@@ -336,12 +336,14 @@ $(function(){
 	
 	
 	//点击登录、注册进入登录页面
+	
 	$(".header-inner .right .login,.header-inner .right .register").click(function(){
 		
 		location.href = "_login.html";
 		
 	})
 	
+	//用户名显示
 	
 	
 	
